@@ -1,0 +1,7 @@
+nvcc main.cu -o main
+
+./main.exe
+
+nvcc -o main -rdc=true main.cu
+
+10000000000

@@ -1,0 +1,5 @@
+nvcc quicksort.cu -o quicksort
+
+./quicksort.exe
+
+nvcc -o quicksort  -rdc=true quicksort.cu
